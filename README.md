@@ -1,3 +1,3 @@
-## Spline.design variables DEMO
+## Spline design demos
 
-![readme-thumbnail]("https://github.com/rvkoon/spline-variables-demo/thumb.png")
+This project is about demonstrating what Spline.design can be used for.

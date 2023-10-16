@@ -3,11 +3,18 @@ import Spline from "@splinetool/react-spline";
 import { Application } from "@splinetool/runtime";
 import { useEffect, useRef, useState } from "react";
 
-export default function SplineComponent({ weight }: { weight: number }) {
+export default function SplineComponent({
+  weight,
+  onLoadedCb,
+}: {
+  weight: number;
+  onLoadedCb: () => void;
+}) {
   const splineRef = useRef<Application | null>(null);
 
   function onLoad(spline: Application) {
     splineRef.current = spline;
+    onLoadedCb();
   }
 
   useEffect(() => {

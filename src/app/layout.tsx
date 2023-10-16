@@ -1,4 +1,3 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import type { Metadata } from "next";
 import { clashDisplay } from "@/fonts/fonts";
