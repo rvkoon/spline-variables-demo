@@ -26,7 +26,7 @@ export default function Home() {
       )}
       {!isLoadingSpline && (
         <>
-          <div className="p-[24px] rounded-lg bg-[#101014] border border-purple-400 w-fit">
+          <div className="p-[24px] rounded-lg bg-[#101014] border border-purple-400 w-fit fadeIn relative z-50">
             <p className="text-[4vh] text-purple-400 font-[600]">
               Spline variables demo
             </p>
@@ -35,7 +35,7 @@ export default function Home() {
             </Link>{" "}
           </div>
 
-          <div className="inputBox p-[24px] rounded-lg bg-white backdrop-blur-md bg-opacity-5 border border-white border-opacity-10 w-fit">
+          <div className="inputBox p-[24px] rounded-lg bg-white backdrop-blur-md bg-opacity-5 border border-white border-opacity-10 w-fit fadeIn">
             <p className="text-white">Play with variable torus weight</p>
             <input
               type="range"
@@ -48,12 +48,12 @@ export default function Home() {
             />
           </div>
           <p
-            className={`fixed z-50 pointer-events-none text-center bottom-[24px] left-[24px] translate-y-[-100%] text-[22vw] leading-[22vw] lg:text-[16vw] lg:leading-[16vw] font-[999] text-white ${anton.className}`}
+            className={`fixed z-50 pointer-events-none text-center bottom-[24px] left-[24px] translate-y-[-100%] text-[22vw] leading-[22vw] lg:text-[16vw] lg:leading-[16vw] font-[999] text-white ${anton.className} transitionIn`}
           >
             SPLINE
           </p>
           <p
-            className={`fixed z-0 text-center bottom-[24px] left-[24px] text-[22vw] leading-[22vw] lg:text-[16vw] lg:leading-[16vw] font-[999] text-white ${anton.className}`}
+            className={`fixed z-0 text-center bottom-[24px] left-[24px] text-[22vw] leading-[22vw] lg:text-[16vw] lg:leading-[16vw] font-[999] text-white ${anton.className} transitionIn`}
           >
             <span className="opacity-0">SPLINE</span>
             <br />

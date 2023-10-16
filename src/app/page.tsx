@@ -8,7 +8,7 @@ import { TagLink } from "./_components/TagLink";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex flex-col gap-4 justify-center items-center">
+    <main className="w-screen h-screen flex flex-col gap-4 justify-center items-center fadeIn">
       <h1
         className={`${spaceMono.className} text-[10vh] leading-[10vh] text-white text-center`}
       >
@@ -35,7 +35,7 @@ export default function Home() {
         </Link>
       </div>
       <p
-        className={`fixed w-auto bottom-[24px] left-1/2 translate-x-[-50%] text-white ${spaceMono.className} p-[24px] rounded-lg bg-[#101014] border border-purple-400`}
+        className={`fixed w-full md:w-auto bottom-[24px] left-1/2 translate-x-[-50%] text-white ${spaceMono.className} p-[24px] rounded-lg bg-[#101014] border border-purple-400`}
       >
         <span>{"> Spline.design is a tool to create"}</span>
         <br />
