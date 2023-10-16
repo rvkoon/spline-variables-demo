@@ -1,3 +1,3 @@
 ## Spline.design variables DEMO
 
-![readme-thumbnail]("thumb.png")
+![readme-thumbnail]("https://github.com/rvkoon/spline-variables-demo/thumb.png")
