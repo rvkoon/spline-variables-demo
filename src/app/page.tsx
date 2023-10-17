@@ -34,18 +34,6 @@ export default function Home() {
           Spline.design
         </Link>
       </div>
-      <p
-        className={`fixed w-full md:w-auto bottom-[24px] left-1/2 translate-x-[-50%] text-white ${spaceMono.className} p-[24px] rounded-lg bg-[#101014] border border-purple-400`}
-      >
-        <span>{"> Spline.design is a tool to create"}</span>
-        <br />
-        <span>&nbsp;&nbsp;{"3D scenes and animations in the browser."}</span>
-        <br />
-        <span>{"> It can now be used to create interactive"}</span>
-        <br />
-        <span>&nbsp;&nbsp;{"experiences with variables."}</span>
-        <br />
-      </p>
     </main>
   );
 }

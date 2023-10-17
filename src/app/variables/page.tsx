@@ -17,10 +17,10 @@ export default function Home() {
   }
 
   return (
-    <main className="p-[24px]">
+    <main className="p-[24px] relative h-screen">
       <SplineComponent weight={weight} onLoadedCb={onLoadedCb} />
       {isLoadingSpline && (
-        <div className="w-screen h-screen flex justify-center items-center">
+        <div className="absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center">
           <p className="text-white">Loading...</p>
         </div>
       )}
@@ -32,7 +32,7 @@ export default function Home() {
             </p>
             <Link href="/" className="underline text-white">
               Back Home
-            </Link>{" "}
+            </Link>
           </div>
 
           <div className="inputBox p-[24px] rounded-lg bg-white backdrop-blur-md bg-opacity-5 border border-white border-opacity-10 w-fit fadeIn">
