@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <Link
               href="/"
-              className="w-fit flex items-center text-white border-4 border-white py-[12px] px-[24px] rounded-[0_100px_100px_100px] font-[500]"
+              className="w-fit flex relative z-50 items-center text-white border-4 border-white py-[12px] px-[24px] rounded-[0_100px_100px_100px] font-[500]"
             >
               Back Home
             </Link>
